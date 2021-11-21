@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <div class="nav" style="background: #f3e2eb; padding: 16px">
+      <ul>
+        <li><%= link_to "Hompage", root_path %></li>
+        <li><%= link_to "About Page", about_us_path %></li>
+        <li><%= link_to "Contact Us", contact_path %></li>
+      </ul>
+    </div>
+
     <%= yield %>
   </body>
 </html>
